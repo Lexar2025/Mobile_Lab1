@@ -17,7 +17,7 @@ export default function ProfileScreen() {
     <ThemedView style={styles.container}>
       {/* Avatar */}
       <Image
-        source={require('@/assets/images/partial-react-logo.png')}
+        source={require('@/assets/images/Screenshot_20260215_204943_Chrome.jpg')}
         style={styles.avatar}
         contentFit="cover"
         transition={200}
@@ -25,12 +25,12 @@ export default function ProfileScreen() {
 
       {/* Name */}
       <ThemedText type="title" style={styles.name}>
-        Алексей
+        Алексей Караман
       </ThemedText>
 
       {/* Description */}
       <ThemedText style={styles.description}>
-        Молодой программист, студент университета. Увлекаюсь разработкой мобильных приложений и изучаю новые технологии.
+        Молодой программист, студент университета. Увлекаюсь embedded разработкой и изучаю новые технологии.
       </ThemedText>
 
       {/* Edit Button */}
@@ -50,9 +50,9 @@ const styles = StyleSheet.create({
     gap: 20,
   },
   avatar: {
-    width: 120,
-    height: 120,
-    borderRadius: 60,
+    width: 200,
+    height: 200,
+    borderRadius: 80,
     borderWidth: 3,
     borderColor: '#007AFF',
     shadowColor: '#000',
